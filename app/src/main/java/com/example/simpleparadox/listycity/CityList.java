@@ -43,7 +43,9 @@ public class CityList {
     }
 
     /**
-     * delete a specified city object from the list get a city object if exists, delete it -  if not then throw an exception
+     * Delete the city from the list if it is there
+     * @param city
+     *  A city to delete
      */
     public void deleteCity(City city){
         try{
